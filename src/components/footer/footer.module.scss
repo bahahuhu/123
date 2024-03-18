@@ -1,0 +1,23 @@
+.footer {
+  background-color: #ebebeb;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 2em;
+  gap: 32px;
+
+  p {
+    text-align: left;
+    font-weight: 500;
+  }
+
+  .bold {
+    font-weight: 700;
+  }
+
+  h3 {
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+}

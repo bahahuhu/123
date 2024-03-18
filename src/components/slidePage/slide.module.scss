@@ -1,0 +1,62 @@
+.swiperContainer {
+  margin: 0 10%;
+  padding-bottom: 48px;
+  border-bottom: 2px solid #a79d09;
+
+  h2 {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 32px;
+  }
+}
+
+.item {
+  height: 250px;
+  width: 200px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .price {
+    font-size: 14px;
+    color: var(--gray-text);
+  }
+
+  .onlinePrice {
+    font-size: 16px;
+    color: red;
+  }
+
+  .name {
+    padding: 8px 16px;
+    font-weight: 600;
+    font-size: 0.9em;
+  }
+
+  .buy {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #fff000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 0;
+
+    svg {
+      margin-right: 8px;
+    }
+  }
+}
+
+.buy:hover {
+  color: #fff000;
+  background-color: black;
+}
+
+@media (max-width: 1124px) {
+  .swiperContainer {
+    margin: 0em 5%;
+  }
+}
